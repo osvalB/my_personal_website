@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osvaldo Burastero - Personal site</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <button class="theme-toggle-btn" data-theme-toggle aria-label="Toggle theme">
+      <ion-icon name="moon-outline" class="theme-icon dark-icon"></ion-icon>
+      <ion-icon name="sunny-outline" class="theme-icon light-icon"></ion-icon>
+    </button>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Osvaldo Burastero" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Osvaldo Burastero">Osvaldo Burastero</h1>
+
+          <p class="title">Life Sciences Software Developer<br>Data analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:oburastero@gmail.com" class="contact-link">oburastero@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/osvaldo-burastero/" target="_blank" class="contact-link">linkedin.com/in/osvaldo-burastero</a>
+            </div>
+
+          </li>
+          
+          
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Buenos Aires, Argentina</address>
+            </div>
+
+          </li>
+
+        </ul>
+        
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Conferences</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Teaching</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Senior Software Developer with a deep expertise on biological data
+             modeling, data visualisation and data analysis. 
+             I have 5+ of experience in performing scientific experiments, 
+             9+ years of experience in programming and 5 years of experience in 
+             software service provision. 
+             I have created Python packages and R shiny applications that are used 
+             worldwide by researchers to better understand their data.
+          </p>
+
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <span class="service-emoji service-code" aria-label="Research to code">&lt;/&gt;</span>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research to code</h4>
+
+                <p class="service-item-text">
+                  Creation of new methods for analysing data and translation of 
+                  published methods into usable code.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <span class="service-emoji" role="img" aria-label="Life sciences">🧬</span>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Life Sciences Software</h4>
+
+                <p class="service-item-text">
+                  Production of interactive, user-friendly software to import, preprocess, visualize, fit 
+                  and interpret biophysical data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <span class="service-emoji" role="img" aria-label="Python">🐍</span>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python development</h4>
+
+                <p class="service-item-text">
+                  Development of Python packages 
+                  (including model-context-protocol servers) 
+                  and scripts for analysing biological data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <span class="service-emoji service-letter" aria-label="R">R</span>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">R development</h4>
+
+                <p class="service-item-text">
+                  Development of R Shiny interactive dashboards for exploring and analysing data.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <span class="service-emoji" role="img" aria-label="User support">🤝</span>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">User support</h4>
+
+                <p class="service-item-text">
+                  Understanding user needs, gathering feedback and improving software 
+                  to support real research workflows.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <span class="service-emoji" role="img" aria-label="Communication">🎤</span>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Communication</h4>
+
+                <p class="service-item-text">
+                  Presenting scientific software and data-analysis methods in conferences, 
+                  webinars and hands-on workshops.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - recommendations
+        -->
+
+        <section class="recommendations">
+
+          <h3 class="h3 recommendations-title">Recommendations</h3>
+
+          <ul class="recommendations-list has-scrollbar">
+
+            <li class="recommendations-item">
+              <div class="content-card">
+
+                <figure class="recommendations-avatar-box">
+                  <img src="https://media.licdn.com/dms/image/v2/D4D03AQGbn3S_vU3bWQ/profile-displayphoto-shrink_100_100/B4DZT3BsPlHkAc-/0/1739311203876?e=1788393600&v=beta&t=9XUErDpamWJYde0HIp0m7MC6MrJeszwb_A-JW9UYWZQ" alt="Florian Benedikt Voegele" width="60">
+                </figure>
+
+                <h4 class="h4 recommendations-item-title">Florian Benedikt Voegele</h4>
+                <p class="recommendations-item-meta">Scientist · July 23, 2026, Florian Benedikt reported to Osvaldo directly</p>
+
+                <div class="recommendations-text">
+                  <p>
+                    Osvaldo Burastero was my mentor during my internship in the Garcia-Alai Group at EMBL Hamburg. Throughout my internship, he provided outstanding guidance and dedicated considerable time to teaching me the intricacies of software development, biophysical research, and the broader scientific working environment.
+                  </p>
+                  <p>
+                    Osvaldo is a highly skilled software developer and researcher who approaches his work with efficiency, professionalism, and a strong ability to solve problems as they arise. As a mentor, he was patient, supportive and fair, providing thoughtful guidance while encouraging me to work independently and develop my own problem-solving skills.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="recommendations-item">
+              <div class="content-card">
+
+                <figure class="recommendations-avatar-box">
+                  <img src="https://media.licdn.com/dms/image/v2/D4D03AQE_lW8gvVc2Hw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1705678111498?e=1788393600&v=beta&t=pG9JwcfrYnEchJeZuYVskBtjjXjZqENSB4nttx40tqY" alt="Franco Marsico" width="60">
+                </figure>
+
+                <h4 class="h4 recommendations-item-title">Franco Marsico</h4>
+                <p class="recommendations-item-meta">Statistical Genomics Researcher · July 13, 2026, Franco worked with Osvaldo on the same team</p>
+
+                <div class="recommendations-text">
+                  <p>
+                    I had the privilege of starting my scientific career alongside Osvaldo at UBA, and it's been genuinely rewarding to watch his trajectory since. What stood out from day one was his rigor, his intellectual curiosity, and a critical thinking that never took a result at face value. He's also one of the most creative people I've worked with when it comes to building tools that other scientists actually use. Beyond that, he's a fantastic colleague, someone you can freely discuss and think through ideas with, without ego getting in the way.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="recommendations-item">
+              <div class="content-card">
+
+                <figure class="recommendations-avatar-box">
+                  <img src="https://media.licdn.com/dms/image/v2/D4E03AQHbkdKXWadOIA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1732367283776?e=1788393600&v=beta&t=6uQNiqc7ji_nI9udgCtNFX7BB4NyPOAF2zzz1yLBhD4" alt="Edward Avenell" width="60">
+                </figure>
+
+                <h4 class="h4 recommendations-item-title">Edward Avenell</h4>
+                <p class="recommendations-item-meta">Project Officer at EMBL · July 7, 2026, Edward managed Osvaldo directly</p>
+
+                <div class="recommendations-text">
+                  <p>
+                    Osvaldo was one of the first generation of ARISE fellows to join. It has been fantastic having him in the programme. He threw himself into the new programme, taking advantage of all the training and development opportunities, including his secondments at Institut Pasteur and Refeyn. His project the eSPC at EMBL Hamburg has been a great success and continues to provide easy to use software for the understanding of biophysical experiments. The experience and skills in tech and service development, project management he has gained and demonstrated with Maria Garcia and ARISE will make him a great addition to any institute.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="recommendations-item">
+              <div class="content-card">
+
+                <figure class="recommendations-avatar-box">
+                  <img src="https://media.licdn.com/dms/image/v2/D4D03AQGUpXCfyf3vWg/profile-displayphoto-shrink_100_100/B4DZVWfqy1GkAc-/0/1740912899296?e=1788393600&v=beta&t=9CJrvGlZIq7UxhE8L8wvxL8sko08MWLgot6zxHSvwro" alt="Uroš Zavrtanik" width="60">
+                </figure>
+
+                <h4 class="h4 recommendations-item-title">Uroš Zavrtanik</h4>
+                <p class="recommendations-item-meta">PhD in Biophysical Chemistry, Teaching Assistant · July 3, 2026, Uroš worked with Osvaldo but at different companies</p>
+
+                <div class="recommendations-text">
+                  <p>
+                    Osvaldo brought my code from "GitHub graveyard" to a fully alive, well-maintained and easy-to-use ChiraKit platform. He's precise, careful, responsive, and his attention to detail pushed me to improve my own work as well. It has been a pleasure working with him!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="recommendations-item">
+              <div class="content-card">
+
+                <figure class="recommendations-avatar-box">
+                  <img src="https://media.licdn.com/dms/image/v2/C4E03AQGMUZ-pss-xKQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1583355681282?e=1788393600&v=beta&t=0OVg9vEAPUSGkEVfNFWlvr93BN5BsY8uAh3nVAqgmhg" alt="Elias Daniel Lopez" width="60">
+                </figure>
+
+                <h4 class="h4 recommendations-item-title">Elias Daniel Lopez</h4>
+                <p class="recommendations-item-meta">Lead Data Scientist · July 2, 2026, Elias Daniel was senior to Osvaldo</p>
+
+                <div class="recommendations-text">
+                  <p>
+                    I had the opportunity to work with Osvaldo on the publication of a scientific paper, but our collaboration went far beyond that project. Over the years, we shared many discussions on technical, academic, and professional topics, which gave me firsthand insight into both his capabilities and his character.
+                  </p>
+                  <p>
+                    Osvaldo combines a strong academic background with rigorous analytical thinking and a practical approach to solving complex problems. His contribution was instrumental in achieving the level of scientific rigor required for publication in a highly respected international journal.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+        <!--
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+        -->
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-header">
+                <h4 class="h4 timeline-item-title">ARISE Research Fellow</h4>
+                <span class="timeline-place">European Molecular Biology Laboratory <br> Hamburg, Germany</span>
+              </div>
+
+              <span>09/2021 - 08/2026</span>
+
+              <p class="timeline-text">
+                Main developer of <a href="https://spc.embl-hamburg.de" target="_blank" rel="noopener noreferrer">eSPC</a>, an open-source online platform with R Shiny applications for processing and
+                analysing biophysical data. The platform received about 650 monthly visits in 2025 and has been independently linked by other research institutes.
+                The tools have been published in peer-reviewed journals and are cited by other researchers in their publications.
+                </p>
+                <br>
+              <p class="timeline-text">
+                During this project, I worked in a highly multidisciplinary environment, established new collaborations with other institutes and performed an Industry secondment at Refeyn, Oxford, England, and an Academic secondment at the Institute Pasteur, Paris, France. Furthermore, I oversaw the whole development pipeline, from prototyping to deployment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-header">
+                <h4 class="h4 timeline-item-title">Doctoral studies</h4>
+                <span class="timeline-place">University of Buenos Aires, Argentina</span>
+              </div>
+
+              <span>03/2017 - 08/2021</span>
+
+              <p class="timeline-text">
+                Designed and performed scientific experiments in the fields of 
+                preclinical drug discovery and structural biology. 
+                As a result of our Team's work, 
+                we discovered a chemical compound capable of inhibiting the growth 
+                of <i>Mycobacterium tuberculosis</i> (Mtb). 
+                In addition, we characterized an Mtb protein using biophysical and computational biology methods.
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-header">
+                <h4 class="h4 timeline-item-title">PhD in Chemical Biology</h4>
+                <span class="timeline-place">University of Buenos Aires</span>
+              </div>
+
+              <span>2017 - 2022</span>
+
+              <p class="timeline-text">
+                Thesis:
+                <a href="https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n7242_Burastero.pdf" target="_blank" rel="noopener noreferrer">
+                  Regulation and inhibition of Protein Kinase G from <i>Mycobacterium tuberculosis</i>
+                </a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-header">
+                <h4 class="h4 timeline-item-title">MSc in Data Mining and Knowledge Discovery (<button class="inline-link-btn" type="button" data-datamining-modal-open>courses</button>)</h4>
+                <span class="timeline-place">University of Buenos Aires</span>
+              </div>
+
+              <span>2018 - 2023</span>
+
+              <p class="timeline-text">
+                Thesis:
+                <a href="https://bibliotecadigital.exactas.uba.ar/download/tesis/tesis_n7339_Burastero.pdf" target="_blank" rel="noopener noreferrer">
+                  Effects of plankton diversity on marine ecosystem functioning
+                </a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-header">
+                <h4 class="h4 timeline-item-title">Licenciatura in Biology (equivalent to BS and MSc) (<button class="inline-link-btn" type="button" data-licenciatura-modal-open>courses</button>)</h4>
+                <span class="timeline-place">University of Buenos Aires</span>
+              </div>
+
+              <span>2011 - 2017</span>
+
+              <p class="timeline-text">
+                 Thesis:
+                 <a href="https://drive.google.com/file/d/1sj94mAdp9e6umrSylCxmwOQnMECUrQXm/view?usp=share_link" target="_blank" rel="noopener noreferrer">
+                   Study of the reactive mechanism of the <i>Escherichia coli</i> Histidine Kinase CpxA
+                 </a>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications and grants</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Peer-reviewed articles</h4>
+
+              <span>12 publications</span>
+
+              <p class="timeline-text">
+                Publications in Q1 journals including Nature Communications, Journal of Medicinal Chemistry, Acta
+                Crystallographica and Nucleic Acids Research.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Seven publications as first author and one as corresponding author.
+                <a href="https://scholar.google.com/citations?user=-kjWKEYAAAAJ&amp;hl=es&amp;oi=ao" target="_blank" rel="noopener noreferrer">
+                  View full record on Google Scholar
+                </a>.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instruct-ERIC Technology Development Call</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Awarded 30000 EUR to develop data-analysis software for binding kinetics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MOlecular-Scale Biophysics Research Infrastructure (MOSBRI) project</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Scientific stay (2 months) at the Institut Pasteur, Paris, France.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">EMBL and Marie Skłodowska-Curie Action Cofund fellowship (ARISE programme)</h4>
+
+              <span>2021 - 2026</span>
+
+              <p class="timeline-text">
+                Three years fellowship (extended to five) to work full-time in the interface between research and service provision. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD fellowship, National Scientific and Technical Research Council (CONICET), Argentina</h4>
+
+              <span>2017 - 2021</span>
+
+              <p class="timeline-text">
+                Five-year fellowship (left before the official end date) to research in the area of structural biology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chinese Summer Camp</h4>
+
+              <span>2017</span>
+
+              <p class="timeline-text">
+                Three weeks learning Chinese in Changchun & Beijing, China. HANBAN
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master thesis scholarship, University of Buenos Aires</h4>
+
+              <span>2016 - 2017</span>
+
+              <p class="timeline-text">
+                One-year student stipendium to perform the MSc thesis in Biology.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="mic-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Conferences and teaching</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">International conferences</h4>
+
+              <p class="timeline-text">
+                Delivered five talks at international conferences, 
+                most recently at the 4th MOSBRI Scientific Conference in Paris, France (2025); 
+                with an attendance of 150-200 individuals.
+              </p>
+
+              <br>
+
+              <p class="timeline-text">
+                I have presented posters six times, 
+                at conference such as the European Biophysical Society's Association (EBSA)
+                biennial congress, Rome, Italy (2025), and Biophysical Society (BPS) 
+                Annual Meeting, Los Angeles, United States (2025).
+              </p>
+
+              <br>
+
+              <p class="timeline-text">
+                Best poster prize at the 3rd MOSBRI Scientific Conference, Ljubljana, Slovenia.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Courses and workshops</h4>
+
+              <span>Since 2022</span>
+
+              <p class="timeline-text">
+                Tutor for international courses and workshops, including EUGLOH, MOSBRI, EMBO membrane protein courses,
+                a biophysics workshop organised by Aarhus University and quality-control training for integral membrane
+                proteins.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Courses taken</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <button class="timeline-action" type="button" data-arise-modal-open>
+                <span class="timeline-action-title">ARISE trainings</span>
+                <span class="timeline-action-meta">2022 - 2024</span>
+              </button>
+
+              <p class="timeline-text">
+                Professional training programme covering research infrastructure management, science policy,
+                user support, project management, service provision, technology transfer and entrepreneurship.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Code &amp; Collaborate: The FAIRytale of Software Development</h4>
+
+              <span>02/25</span>
+
+              <p class="timeline-text">
+                Centre Européen de Calcul Atomique et Moléculaire (CECAM), online. 24 hours.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Quality control for Biology</h4>
+
+              <span>04/22</span>
+
+              <p class="timeline-text">
+                MOSBRI Course, Institut Pasteur, Paris, France. 40 hours, one-week course.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Biomolecular interaction analysis 2021: From molecules to cells</h4>
+
+              <span>10/21</span>
+
+              <p class="timeline-text">
+                EMBO Course. 35 hours, one-week course.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Environmental Microbial Biotechnology</h4>
+
+              <span>03/21 - 07/21</span>
+
+              <p class="timeline-text">
+                Department of Physiology, Molecular and Cellular Biology and Department of Chemical Biology,
+                FCEN, UBA. 110 hours.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Advanced Enzyme Kinetics</h4>
+
+              <span>03/21 - 07/21</span>
+
+              <p class="timeline-text">
+                Faculty of Pharmacy and Biochemistry, UBA. 90 hours.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Epigenetics: Interface between genetics and the environment</h4>
+
+              <span>10/20 - 12/20</span>
+
+              <p class="timeline-text">
+                Department of Chemical Biology, FCEN, UBA. 60 hours.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science R: Statistical Foundations</h4>
+
+              <span>04/20</span>
+
+              <p class="timeline-text">
+                Institute of Calculus, UBA. 54 hours.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">School of Biomolecule Modeling</h4>
+
+              <span>08/17</span>
+
+              <p class="timeline-text">
+                Department of Inorganic, Analytical and Physical Chemistry, FCEN, UBA. 80 hours, two-week course.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mathematics coursework</h4>
+
+              <span>2016 - 2019</span>
+
+              <p class="timeline-text">
+                Algebra I, Mathematical Analysis I and Advanced Calculus Workshop. Quarterly courses from the
+                <i>Licenciatura</i> in Mathematics, FCEN, UBA.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skills-section">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <div class="skills-content">
+
+            <div class="skills-category">
+              <h4 class="h4 skills-category-title">Computational</h4>
+              <ul class="skills-items-list">
+                <li class="skill-item">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-details">numpy, pandas, scipy, scikit-learn, fastmcp, pytest</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">R</span>
+                  <span class="skill-details">tidyverse, shiny, plotly, ggplot2, nlstools, minpack.lm, shinytest2, testthat</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Git, Github, CI/CD</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Testing</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Docker</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Docking and molecular dynamics</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills-category">
+              <h4 class="h4 skills-category-title">Wet lab</h4>
+              <ul class="skills-items-list">
+                <li class="skill-item">
+                  <span class="skill-name">Protein expression and purification</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Enzymatic assays</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Binding assays</span>
+                </li>
+                <li class="skill-item">
+                  <span class="skill-name">Sample quality control</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="languages">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Languages</h3>
+          </div>
+
+          <ul class="languages-list content-card">
+
+            <li class="languages-item">
+              <span class="languages-name">Spanish</span>
+              <span class="languages-level">Native</span>
+            </li>
+
+            <li class="languages-item">
+              <span class="languages-name">English</span>
+              <span class="languages-level">Fluid</span>
+            </li>
+
+            <li class="languages-item">
+              <span class="languages-name">German</span>
+              <span class="languages-level">Fluid</span>
+            </li>
+
+            <li class="languages-item">
+              <span class="languages-name">Chinese</span>
+              <span class="languages-level">Basic</span>
+            </li>
+
+            <li class="languages-item">
+              <span class="languages-name">French</span>
+              <span class="languages-level">Basic</span>
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+      </article>
+
+
+      <!--
+        - #PUBLICATIONS
+      -->
+
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="publications-intro">
+          <p class="timeline-text">
+            Peer-reviewed journal articles and book chapters.
+          </p>
+        </section>
+
+        <section class="blog-posts">
+
+          <h3 class="h3 publications-group-title">Peer-reviewed journal articles</h3>
+
+          <ul class="blog-posts-list publications-list">
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Nucleic Acids Research</p>
+                    <span class="dot"></span>
+                    <time datetime="2025">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1093/nar/gkaf350" target="_blank" rel="noopener noreferrer">ChiraKit: an online tool for the analysis of circular dichroism spectroscopy data</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Burastero, O.; Jones, N. C.; Defelipe, L. A.; Zavrtanik, U.; Hadži, S.; Hoffmann, S. V.; Garcia-Alai, M. M.
+                    Nucleic Acids Research 53(W1), W158-W168.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Nature Communications</p>
+                    <span class="dot"></span>
+                    <time datetime="2024">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1038/s41467-024-54037-z" target="_blank" rel="noopener noreferrer">Subtleties in Clathrin heavy chain binding boxes provide selectivity among adaptor proteins of budding yeast</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Defelipe, L. A.; Veith, K.; Burastero, O.; Kupriianova, T.; Bento, I.; Skruzny, M.; Kölbel, K.; Uetrecht, C.; Thuenauer, R.; García-Alai, M. M.
+                    Nature Communications 15(1), 9655.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Acta Crystallographica Section D</p>
+                    <span class="dot"></span>
+                    <time datetime="2023">2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1107/S2059798323004862" target="_blank" rel="noopener noreferrer">Raynals, an online tool for the analysis of dynamic light scattering</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Burastero, O.; Draper-Barr, G.; Raynal, B.; Chevreuil, M.; England, P.; Garcia Alai, M.
+                    Acta Crystallographica Section D 79(8), 673-683.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Journal of Medicinal Chemistry</p>
+                    <span class="dot"></span>
+                    <time datetime="2022">2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1021/acs.jmedchem.1c02012" target="_blank" rel="noopener noreferrer">Cosolvent Sites-Based Discovery of Mycobacterium tuberculosis Protein Kinase G Inhibitors</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Burastero, O.; Defelipe, L. A.; Gola, G.; Tateosian, N. L.; Lopez, E. D.; Martinena, C. B.; Arcon, J. P.; Traian, M. D.; Wetzler, D. E.; Bento, I.; et al.
+                    Journal of Medicinal Chemistry 65(14), 9691-9705.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Frontiers in Molecular Biosciences</p>
+                    <span class="dot"></span>
+                    <time datetime="2022">2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.3389/fmolb.2022.882288" target="_blank" rel="noopener noreferrer">Biophysical screening pipeline for Cryo-EM grid preparation of membrane proteins</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Niebling, S.; Veith, K.; Vollmer, B.; Lizarrondo, J.; Burastero, O.; Schiller, J.; Struve García, A.; Lewe, P.; Seuring, C.; Witt, S.; et al.
+                    Frontiers in Molecular Biosciences 9, 882288.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Journal of Chemical Information and Modeling</p>
+                    <span class="dot"></span>
+                    <time datetime="2022">2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1021/acs.jcim.1c01358" target="_blank" rel="noopener noreferrer">Specificity and Reactivity of Mycobacterium tuberculosis Serine/Threonine Kinases PknG and PknB</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Burastero, O.; Cabrera, M.; Lopez, E. D.; Defelipe, L. A.; Arcon, J. P.; Durán, R.; Marti, M. A.; Turjanski, A. G.
+                    Journal of Chemical Information and Modeling 62(7), 1723-1733.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Acta Crystallographica Section D: Structural Biology</p>
+                    <span class="dot"></span>
+                    <time datetime="2021">2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1107/S2059798321008998" target="_blank" rel="noopener noreferrer">eSPC: an online data-analysis platform for molecular biophysics</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Burastero, O.; Niebling, S.; Defelipe, L. A.; Günther, C.; Struve, A.; Garcia Alai, M. M.
+                    Acta Crystallographica Section D: Structural Biology 77(10), 1241-1250.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Scientific Reports</p>
+                    <span class="dot"></span>
+                    <time datetime="2021">2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1038/s41598-021-88985-z" target="_blank" rel="noopener noreferrer">FoldAffinity: binding affinities from nDSF experiments</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Niebling, S.; Burastero, O.; Bürgi, J.; Günther, C.; Defelipe, L. A.; Sander, S.; Gattkowski, E.; Anjanappa, R.; Wilmanns, M.; Springer, S.; et al.
+                    Scientific Reports 11(1), 9572.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Journal of Chemical Information and Modeling</p>
+                    <span class="dot"></span>
+                    <time datetime="2020">2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1021/acs.jcim.9b00806" target="_blank" rel="noopener noreferrer">Conformational and Reaction Dynamic Coupling in Histidine Kinases: Insights from Hybrid QM/MM Simulations</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Olivieri, F. A.; Burastero, O.; Drusin, S. I.; Defelipe, L. A.; Wetzler, D. E.; Turjanski, A.; Marti, M.
+                    Journal of Chemical Information and Modeling 60(2), 833-842.
+                  </p>
+
+                  <p class="publication-note">Shared first co-author with Federico A. Olivieri.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Journal of Chemical Information and Modeling</p>
+                    <span class="dot"></span>
+                    <time datetime="2019">2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1021/acs.jcim.9b00782" target="_blank" rel="noopener noreferrer">Kinase Activation by Small Conformational Changes</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Lopez, E. D.; Burastero, O.; Arcon, J. P.; Defelipe, L. A.; Ahn, N. G.; Marti, M. A.; Turjanski, A. G.
+                    Journal of Chemical Information and Modeling 60(2), 821-832.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Journal of Chemical Information and Modeling</p>
+                    <span class="dot"></span>
+                    <time datetime="2019">2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1021/acs.jcim.9b00371" target="_blank" rel="noopener noreferrer">Cosolvent-based protein pharmacophore for ligand enrichment in virtual screening</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Arcon, J. P.; Defelipe, L. A.; Lopez, E. D.; Burastero, O.; Modenutti, C. P.; Barril, X.; Marti, M. A.; Turjanski, A. G.
+                    Journal of Chemical Information and Modeling 59(8), 3572-3583.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Biochemical and Biophysical Research Communications</p>
+                    <span class="dot"></span>
+                    <time datetime="2018">2018</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1016/j.bbrc.2017.09.039" target="_blank" rel="noopener noreferrer">Multiscale approach to the activation and phosphotransfer mechanism of CpxA histidine kinase reveals a tight coupling between conformational and chemical steps</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Marsico, F.; Burastero, O.; Defelipe, L. A.; Lopez, E. D.; Arrar, M.; Turjanski, A. G.; Marti, M. A.
+                    Biochemical and Biophysical Research Communications 498(2), 305-312.
+                  </p>
+
+                  <p class="publication-note">Shared first co-author with Franco Marsico.</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="blog-posts publications-section">
+
+          <h3 class="h3 publications-group-title">Book chapters</h3>
+
+          <ul class="blog-posts-list publications-list">
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">RNA Spectroscopy: Methods and Protocols</p>
+                    <span class="dot"></span>
+                    <time datetime="2026">2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1007/978-1-0716-5084-4_12" target="_blank" rel="noopener noreferrer">Interpretation of Short RNA Thermal Unfolding Data Obtained by Circular Dichroism Using ChiraKit</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Burastero, O.; Mosca, K.; Garcia-Alai, M. M.
+                    RNA Spectroscopy: Methods and Protocols, 171-182. Springer US.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Advanced Methods in Structural Biology</p>
+                    <span class="dot"></span>
+                    <time datetime="2023">2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">
+                    <a href="https://doi.org/10.1007/978-1-0716-3147-8_12" target="_blank" rel="noopener noreferrer">Biophysical Characterization of Membrane Proteins</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Niebling, S.; Burastero, O.; García-Alai, M.
+                    Advanced Methods in Structural Biology, 215-230. Springer.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONFERENCES
+      -->
+
+      <article class="conferences" data-page="conferences">
+
+        <header>
+          <h2 class="h2 article-title">Conferences</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <h3 class="h3 publications-group-title">Talks</h3>
+
+          <ul class="blog-posts-list publications-list">
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Oral presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06">06/25</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">KinGenie, an online tool for the analysis of kinetics data</h3>
+
+                  <p class="blog-text">
+                    4th MOSBRI Scientific Conference, Paris, France. Attendance: 100 - 200 individuals,
+                    academia and industry.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Oral presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-06">06/23</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Shining a Light on Dynamic Data: From Generation to Interpretation</h3>
+
+                  <p class="blog-text">
+                    2nd MOSBRI Scientific Conference, Zaragoza, Spain. Attendance: 100 - 200 individuals,
+                    academia and industry.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Oral and poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-06">06/22</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">eSPC: an online data-analysis platform for molecular biophysics</h3>
+
+                  <p class="blog-text">
+                    1st MOSBRI Scientific Conference, Paris, France. Attendance: 100 - 200 individuals,
+                    academia and industry.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Oral and poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2016-11">11/16</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">QM/MM Study of the autophosphorylation reaction in histidine kinases</h3>
+
+                  <p class="blog-text">
+                    2nd ISCB LA Student Council Symposium, Buenos Aires, Argentina. Attendance: 60 - 70 individuals,
+                    mainly master's and PhD students.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Oral and poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2016-05">05/16</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Study of histidine kinase CpxA reaction mechanism</h3>
+
+                  <p class="blog-text">
+                    1st Argentine Symposium of Young Bioinformatics Researchers, Buenos Aires, Argentina.
+                    Attendance: 40 - 50 individuals, mainly master's and PhD students.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="blog-posts publications-section">
+
+          <h3 class="h3 publications-group-title">Poster presentations</h3>
+
+          <ul class="blog-posts-list publications-list">
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-07">07/25</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">KinGenie, an online, user-friendly tool to analyse surface- and solution-based binding kinetics</h3>
+
+                  <p class="blog-text">
+                    European Biophysical Society's Association (EBSA) biennial conference, Rome, Italy.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-02">02/25</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Advanced analysis of biophysical data made simple for everyone, everywhere</h3>
+
+                  <p class="blog-text">
+                    Biophysical Society Annual Meeting, Los Angeles, United States.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-06">06/24</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">eSPC: an online data-analysis platform for molecular biophysics</h3>
+
+                  <p class="blog-text">
+                    3rd MOSBRI Scientific Conference, Ljubljana, Slovenia. Selected as best poster.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-05">05/22</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">eSPC: an online data analysis platform for molecular biophysics</h3>
+
+                  <p class="blog-text">
+                    Instruct-ERIC Structural Biology Biennial Conference, Utrecht, Netherlands.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2018-03">03/18</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Novel <i>Mycobacterium tuberculosis</i> PknG inhibitors. A computational-experimental study</h3>
+
+                  <p class="blog-text">
+                    18th International Congress on Infectious Diseases, Buenos Aires, Argentina.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Poster presentation</p>
+                    <span class="dot"></span>
+                    <time datetime="2017-11">11/17</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Multi-scale approach to the activation and phosphotransfer mechanism of CpxA histidine kinase reveals a tight coupling between conformational and chemical steps</h3>
+
+                  <p class="blog-text">
+                    Joint Meeting of BioScience Societies, Buenos Aires, Argentina.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #TEACHING
+      -->
+
+      <article class="teaching" data-page="teaching">
+
+        <header>
+          <h2 class="h2 article-title">Teaching</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list publications-list">
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Invited talk, online</p>
+                    <span class="dot"></span>
+                    <time datetime="2026-04">04/26</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Outcomes of the Molecular-Scale Biophysics Research Infrastructure (MOSBRI) project</h3>
+
+                  <p class="blog-text">
+                    Springer Nature Biophysics Seminars. Attendance: 70, academia and industry.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Tutor</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-06">06/25</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">EUGLOH Course Entrepreneurship Meets Health Innovation at Large-Scale Facilities</h3>
+
+                  <p class="blog-text">
+                    Hamburg, Germany. Attendance: 16 PhD students and postdoctoral researchers.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Tutor</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-04">04/25</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MOSBRI Course ALS2: Biophysical methods for the real-time characterization of biomolecular interactions</h3>
+
+                  <p class="blog-text">
+                    Paris, France. Attendance: 20 PhD students, postdocs and PIs.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Tutor</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-11">11/24</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MOSBRI Meeting Towards data FAIRness in molecular biophysics</h3>
+
+                  <p class="blog-text">
+                    Prague, Czech Republic. Taught practical work in the lab and data analysis of biophysical
+                    experiments. Attendance: ca. 20 PhD students, postdocs and PIs.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Tutor</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-09">09/24 and 09/22</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">EMBO Course Membrane Protein Expression, Purification, and Characterization (mPEPC2 and mPEPC3)</h3>
+
+                  <p class="blog-text">
+                    Hamburg, Germany. Taught practical work in the lab and data analysis of biophysical experiments.
+                    Attendance: 20 PhD students and postdocs.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Invited talk, online</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-11">11/22 and 11/23</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">eSPC: an online data analysis platform for molecular biophysics</h3>
+
+                  <p class="blog-text">
+                    Master course Chemical methods to study proteins, University of Bologna, Italy.
+                    Attendance: 10 - 20 master's students.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Invited talk, online</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-11">11/22</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">From theory to practice: online, reproducible and user-friendly data analysis on the eSPC platform</h3>
+
+                  <p class="blog-text">
+                    MOSBRI Workshop Pushing the limits with Differential Scanning Fluorimetry. Attendance: 50 - 100,
+                    academia and industry.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Tutor</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-11">11/22</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Biophysics workshop</h3>
+
+                  <p class="blog-text">
+                    Organised by Aarhus University, Aarhus, Denmark. Attendance: 20 - 30 students, from pre-docs to
+                    principal investigators.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Tutor</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-09">09/22</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MOSBRI Course ESC3: Quality control for Integral Membrane Proteins</h3>
+
+                  <p class="blog-text">
+                    Hamburg, Germany. Gave one lesson and taught practical work in the lab and data analysis of
+                    biophysical experiments. Attendance: 9 PhD students and postdocs.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Invited talk, online</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02">02/22</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">eSPC: an online data analysis platform for molecular biophysics</h3>
+
+                  <p class="blog-text">
+                    Internal seminar for the University of Pavia, Italy. Attendance: 20 - 30, from pre-docs to
+                    principal investigators.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="blog-post-item publication-item">
+              <div class="publication-card">
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Teacher assistant</p>
+                    <span class="dot"></span>
+                    <time datetime="2017-07">07/17 - 09/17</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Computational Biology course for master's degree in Medical Molecular Biology</h3>
+
+                  <p class="blog-text">
+                    University of Buenos Aires. Attendance: 20 - 30 graduates.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+  <div class="licenciatura-modal-container" data-licenciatura-modal-container>
+    <div class="licenciatura-overlay" data-licenciatura-modal-close></div>
+
+    <section class="licenciatura-modal" role="dialog" aria-modal="true" aria-labelledby="licenciatura-modal-title">
+      <button class="modal-close-btn" type="button" data-licenciatura-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <h3 class="h3 modal-title" id="licenciatura-modal-title">Licenciatura in Biology - Courses</h3>
+
+      <div class="arise-table-wrap">
+        <table class="arise-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Course / Subject</th>
+              <th>Grade</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Physics (03) (CBC)</td><td>10/10</td><td>29 Jul 2011</td></tr>
+            <tr><td>2</td><td>Biology (08) (CBC)</td><td>9/10</td><td>29 Jul 2011</td></tr>
+            <tr><td>3</td><td>Introduction to Scientific Thinking (40) (CBC)</td><td>9/10</td><td>29 Jul 2011</td></tr>
+            <tr><td>4</td><td>Chemistry (05) (CBC)</td><td>9/10</td><td>30 Nov 2011</td></tr>
+            <tr><td>5</td><td>Introduction to Knowledge of Society and the State (24) (CBC)</td><td>8/10</td><td>30 Nov 2011</td></tr>
+            <tr><td>6</td><td>Mathematics (51) (CBC)</td><td>10/10</td><td>30 Nov 2011</td></tr>
+            <tr><td>7</td><td>Introduction to Molecular and Cellular Biology</td><td>9/10</td><td>30 Jul 2012</td></tr>
+            <tr><td>8</td><td>Mathematical Analysis I</td><td>10/10</td><td>31 Jul 2012</td></tr>
+            <tr><td>9</td><td>Introduction to Botany</td><td>8/10</td><td>14 Dec 2012</td></tr>
+            <tr><td>10</td><td>General and Inorganic Chemistry</td><td>10/10</td><td>27 Dec 2012</td></tr>
+            <tr><td>11</td><td>Elements of Numerical Calculus</td><td>10/10</td><td>30 Jul 2013</td></tr>
+            <tr><td>12</td><td>Introduction to Zoology</td><td>7/10</td><td>6 Aug 2013</td></tr>
+            <tr><td>13</td><td>Biometry</td><td>9/10</td><td>13 Dec 2013</td></tr>
+            <tr><td>14</td><td>Organic Chemistry</td><td>8/10</td><td>19 Dec 2013</td></tr>
+            <tr><td>15</td><td>General Ecology</td><td>8/10</td><td>21 Jul 2014</td></tr>
+            <tr><td>16</td><td>Biological Chemistry</td><td>9/10</td><td>15 Aug 2014</td></tr>
+            <tr><td>17</td><td>Biological Chemistry II B (Structure and Function of …)</td><td>9/10</td><td>10 Dec 2014</td></tr>
+            <tr><td>18</td><td>Genetics I</td><td>9/10</td><td>10 Dec 2014</td></tr>
+            <tr><td>19</td><td>Biological Analysis II</td><td>8/10</td><td>10 Dec 2014</td></tr>
+            <tr><td>20</td><td>Physics I</td><td>8/10</td><td>26 Feb 2015</td></tr>
+            <tr><td>21</td><td>German 1 (*)</td><td>9/10</td><td>3 Jul 2015</td></tr>
+            <tr><td>22</td><td>Introduction to Molecular Bioinformatics</td><td>9/10</td><td>9 Jul 2015</td></tr>
+            <tr><td>23</td><td>Molecular Biology</td><td>9/10</td><td>24 Jul 2015</td></tr>
+            <tr><td>24</td><td>Introduction to Computing</td><td>10/10</td><td>7 Sep 2015</td></tr>
+            <tr><td>25</td><td>Microbiology and Immunology</td><td>8/10</td><td>22 Dec 2015</td></tr>
+            <tr><td>26</td><td>Topics in Physicochemistry in Biological Systems</td><td>10/10</td><td>7 Jul 2016</td></tr>
+            <tr><td>27</td><td>Evolution</td><td>8/10</td><td>18 Jul 2016</td></tr>
+            <tr><td>28</td><td>Physics II</td><td>7/10</td><td>10 Mar 2017</td></tr>
+            <tr><td>29</td><td>Seminar</td><td>10/10</td><td>23 Mar 2017</td></tr>
+            <tr><td>30</td><td>Comparative Animal Physiology</td><td>9/10</td><td>28 Apr 2017</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <div class="datamining-modal-container" data-datamining-modal-container>
+    <div class="datamining-overlay" data-datamining-modal-close></div>
+
+    <section class="datamining-modal" role="dialog" aria-modal="true" aria-labelledby="datamining-modal-title">
+      <button class="modal-close-btn" type="button" data-datamining-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <h3 class="h3 modal-title" id="datamining-modal-title">MSc in Data Mining and Knowledge Discovery - Courses</h3>
+
+      <div class="arise-table-wrap">
+        <table class="arise-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Course</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>17/08/2018</td><td>Machine Learning</td><td>8/10</td></tr>
+            <tr><td>03/09/2018</td><td>Intelligent Data Analysis</td><td>8/10</td></tr>
+            <tr><td>23/11/2018</td><td>Data Mining</td><td>9/10</td></tr>
+            <tr><td>03/12/2018</td><td>Statistical Approach to Learning and Discovery</td><td>9/10</td></tr>
+            <tr><td>04/03/2019</td><td>Data Mining and Knowledge Discovery in Science and Technology</td><td>9/10</td></tr>
+            <tr><td>20/03/2019</td><td>Data Mining and Knowledge Discovery in Economics and Finance</td><td>8/10</td></tr>
+            <tr><td>24/07/2020</td><td>Final Project</td><td>10/10</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <div class="arise-modal-container" data-arise-modal-container>
+    <div class="arise-overlay" data-arise-modal-close></div>
+
+    <section class="arise-modal" role="dialog" aria-modal="true" aria-labelledby="arise-modal-title">
+      <button class="modal-close-btn" type="button" data-arise-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <h3 class="h3 modal-title" id="arise-modal-title">ARISE trainings</h3>
+
+      <div class="arise-table-wrap">
+        <table class="arise-table">
+          <thead>
+            <tr>
+              <th>Training</th>
+              <th>Area</th>
+              <th>Date</th>
+              <th>Trainer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Introduction</td><td>Research Infrastructure Management</td><td>03.05.22</td><td>Thomas Schneider</td></tr>
+            <tr><td>Science policy: Intro Open Science and Open data</td><td>Science Policy</td><td>05.07.2022</td><td>Victoria Yan, Aasta Mathur</td></tr>
+            <tr><td>Science policy: FAIR Data and Data and Software management part 1</td><td>Science Policy</td><td>12.07.2022</td><td>Lisanna Paladin</td></tr>
+            <tr><td>Science policy: FAIR Data and Data and Software management, and EOSC part 2</td><td>Science Policy</td><td>02.08.2022</td><td>JK Heriche and Will Murphy</td></tr>
+            <tr><td>Professional Training: Claudia Alen Amaro presenting Instruct-ERIC: How ERICs support researchers and facilities</td><td>Research Infrastructure Management</td><td>13.09.2022</td><td>Claudia Alen Amaro</td></tr>
+            <tr><td>Funding Sources and Grants office support</td><td>Research Infrastructure Management</td><td>11.10.2022</td><td>Grants and Tanja</td></tr>
+            <tr><td>Finding your way on EC portal. Understanding calls. Example of INFRAIA call</td><td>Research Infrastructure Management</td><td>15.11.2022</td><td>Tanja Ninkovic</td></tr>
+            <tr><td>EOSC and software management</td><td>Science Policy</td><td>06.12.2022</td><td>Jean Karim Heriche</td></tr>
+            <tr><td>Understanding user needs and ways of working (Hardware)</td><td>User Support</td><td>10.01.2023</td><td>Rachel Mellwig</td></tr>
+            <tr><td>Understanding user needs and ways of working (data science)</td><td>User Support</td><td>07.02.2023</td><td>EBI Michele Ide-Smith</td></tr>
+            <tr><td>General Principles of Project management</td><td>Project Management</td><td>14.02.2023</td><td>Nina and Tanja</td></tr>
+            <tr><td>Management of user projects - use case</td><td>Project Management</td><td>07.03.2023</td><td>Christian Tischer</td></tr>
+            <tr><td>Training users</td><td>User Support</td><td>25.04.2023</td><td>Beate Neumann - Faba, ALMF</td></tr>
+            <tr><td>From academic services to commercial service provision</td><td>Technology transfer and entrepreneurship</td><td>09.05.2023</td><td>Sophie Zimmermann</td></tr>
+            <tr><td>Budgeting and Financial Reporting</td><td>Research Infrastructure Management</td><td>03.05.2023</td><td>Stefan Debast, Domogoj Strithof, Alexander Langer</td></tr>
+            <tr><td>Operations management, designing services, controlling and redesigning / service design process</td><td>Research Infrastructure Management</td><td>23.05.2023</td><td>Alexander Botzki, VIB</td></tr>
+            <tr><td>Summer school</td><td></td><td>19-23.06.2023</td><td></td></tr>
+            <tr><td>Define Technologies needed for service provision</td><td>Service Provision</td><td>19.06.2023</td><td>Vladimir Benes</td></tr>
+            <tr><td>Marketing and visibility, social media</td><td>Service Provision</td><td>19.06.2023</td><td>Annika Grandison</td></tr>
+            <tr><td>Technology transfer</td><td>Technology transfer and entrepreneurship</td><td>20.06.2023</td><td>Julia Dieter</td></tr>
+            <tr><td>Impact assessment</td><td>Service Provision</td><td>20.06.2023</td><td>Emma Steer</td></tr>
+            <tr><td>Commercialising and spinning off innovation from research infrastructures</td><td>Technology transfer and entrepreneurship</td><td>20.06.2023</td><td>Markus Hergard, BII</td></tr>
+            <tr><td>Costing up (new) services</td><td>Research Infrastructure Management</td><td>21.06.2023</td><td>Timo Zimmermann</td></tr>
+            <tr><td>Costing up staff and compute requirements, tracking multiple projects</td><td>Research Infrastructure Management</td><td>21.06.2023</td><td>Timo Zimmermann</td></tr>
+            <tr><td>Diversity and social implications</td><td>Science Policy</td><td>21.06.2023</td><td>Anya Osetrova</td></tr>
+            <tr><td>Entrepreneurship journey - supplying and collaborating with core facilities</td><td>Technology transfer and entrepreneurship</td><td>21.06.2023</td><td>Malte Wachsmuth, Bruker</td></tr>
+            <tr><td>Staffing and leading your teams</td><td>Project Management</td><td>22.06.2023</td><td>Lenka Stejskal</td></tr>
+            <tr><td>Why is industry interested in collaborating with academic organisations and their research infrastructures</td><td>Technology transfer and entrepreneurship</td><td>22.06.2023</td><td>Marzia Sidri</td></tr>
+            <tr><td>How to establish contacts with industry</td><td>Technology transfer and entrepreneurship</td><td>22.06.2023</td><td>Euphemia Mutasa-Gotgens</td></tr>
+            <tr><td>Ethics and legal implications</td><td>Science Policy</td><td>09.04.2024</td><td>Giorgia Renne</td></tr>
+            <tr><td>Conflict management</td><td>Project Management</td><td>07.05.2024</td><td>Martina Peskoller-Fuchs</td></tr>
+            <tr><td>Quality Control</td><td>Research Infrastructure Management</td><td>14.05.2024</td><td>Auriane Denis</td></tr>
+            <tr><td>Health and Safety</td><td>Research Infrastructure Management</td><td>04.06.2024</td><td>Corinna Gorny</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
