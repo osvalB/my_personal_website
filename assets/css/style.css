@@ -1479,6 +1479,10 @@ body.light-theme .navbar {
 
 .project-item { display: none; }
 
+.project-item.row-start {
+  grid-column: 1;
+}
+
 .project-item.active {
   display: block;
   animation: scaleUp 0.25s ease forwards;
