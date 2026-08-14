@@ -1546,6 +1546,10 @@ body.light-theme .navbar {
 }
 
 /* Theme-specific images */
+.theme-img-dark {
+  display: block;
+}
+
 .theme-img-light {
   display: none;
 }
