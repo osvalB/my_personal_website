@@ -1297,6 +1297,47 @@ body.light-theme .navbar {
 
 
 /**
+ * interests section
+ */
+
+.interests { margin-bottom: 30px; }
+
+.interests .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.interests-list { padding: 20px; }
+
+.interests-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.interests-item:not(:last-child) {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--jet);
+}
+
+.interests-name {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+}
+
+.interests-details {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+}
+
+
+/**
  * skills section
  */
 
