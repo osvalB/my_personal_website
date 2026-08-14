@@ -1545,6 +1545,19 @@ body.light-theme .navbar {
   transition: var(--transition-1);
 }
 
+/* Theme-specific images */
+.theme-img-light {
+  display: none;
+}
+
+body.light-theme .theme-img-dark {
+  display: none;
+}
+
+body.light-theme .theme-img-light {
+  display: block;
+}
+
 .project-item > a:hover img { transform: scale(1.1); }
 
 .project-title,
@@ -2289,6 +2302,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar, article {
     width: 950px;
     box-shadow: var(--shadow-5);
+  }
+
+  article {
+    padding-top: 60px;
   }
 
 
