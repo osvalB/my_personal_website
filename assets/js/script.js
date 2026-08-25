@@ -208,7 +208,9 @@ const skillModalData = {
     title: "Other assays and techniques",
     techniques: [
       "Preparing samples for small-angle X-ray scattering (SAXS)",
-      "Setting up crystallization plates for X-ray crystallography"
+      "Setting up crystallization plates for X-ray crystallography",
+      "Fe<sup>2+</sup> determination with 1,10-phenanthroline",
+      "Quantification of free cysteines with PEG-maleimide"
     ]
   }
 
