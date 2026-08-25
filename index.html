@@ -781,6 +781,19 @@
 
             <li class="timeline-item">
 
+              <h4 class="h4 timeline-item-title">CryoEM Course 2022 at CSSB</h4>
+
+              <span>09/22</span>
+
+              <p class="timeline-text">
+                Centre for Systems Structural Biology (CSSB), Hamburg, Germany. Two-weeks course (did the
+                theoretical part only).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
               <h4 class="h4 timeline-item-title">Quality control for Biology</h4>
 
               <span>04/22</span>
@@ -895,45 +908,105 @@
 
             <div class="skills-category">
               <h4 class="h4 skills-category-title">Computational</h4>
+
               <ul class="skills-items-list">
+
                 <li class="skill-item">
                   <span class="skill-name">Python</span>
-                  <span class="skill-details">numpy, pandas, scipy, scikit-learn, fastmcp, pytest, pytorch, networkx, </span>
+                  <span class="skill-details">
+                    numpy, pandas, scipy, scikit-learn, fastmcp, pytest, pytorch, networkx
+                  </span>
                 </li>
+
                 <li class="skill-item">
                   <span class="skill-name">R</span>
-                  <span class="skill-details">tidyverse, shiny, plotly, ggplot2, nlstools, minpack.lm, shinytest2, testthat</span>
+                  <span class="skill-details">
+                    tidyverse, shiny, plotly, ggplot2, nlstools, minpack.lm, shinytest2, testthat
+                  </span>
                 </li>
+
                 <li class="skill-item">
                   <span class="skill-name">Git, Github, CI/CD</span>
                 </li>
+
                 <li class="skill-item">
                   <span class="skill-name">Testing</span>
                 </li>
+
                 <li class="skill-item">
-                  <span class="skill-name">Docker</span>
+                  <span class="skill-name">Docker & Dockerhub</span>
                 </li>
+
                 <li class="skill-item">
-                  <span class="skill-name">Docking and molecular dynamics</span>
+                  <span class="skill-name">
+                    Protein-ligand docking and molecular dynamics
+                  </span>
                 </li>
+
               </ul>
             </div>
 
+
             <div class="skills-category">
               <h4 class="h4 skills-category-title">Wet lab</h4>
+
               <ul class="skills-items-list">
+
                 <li class="skill-item">
-                  <span class="skill-name">Protein expression and purification</span>
+                  <span class="skill-name">
+                    Protein expression and purification
+                    <button class="inline-link-btn"
+                            type="button"
+                            data-skill-modal-open="protein-expression">
+                      (expand)
+                    </button>
+                  </span>
                 </li>
+
                 <li class="skill-item">
-                  <span class="skill-name">Enzymatic assays</span>
+                  <span class="skill-name">
+                    Enzymatic assays
+                    <button class="inline-link-btn"
+                            type="button"
+                            data-skill-modal-open="enzymatic-assays">
+                      (expand)
+                    </button>
+                  </span>
                 </li>
+
                 <li class="skill-item">
-                  <span class="skill-name">Binding assays</span>
+                  <span class="skill-name">
+                    Binding assays
+                    <button class="inline-link-btn"
+                            type="button"
+                            data-skill-modal-open="binding-assays">
+                      (expand)
+                    </button>
+                  </span>
                 </li>
+
                 <li class="skill-item">
-                  <span class="skill-name">Sample quality control</span>
+                  <span class="skill-name">
+                    Sample quality control
+                    <button class="inline-link-btn"
+                            type="button"
+                            data-skill-modal-open="sample-qc">
+                      (expand)
+                    </button>
+                  </span>
                 </li>
+
+                <li class="skill-item">
+                  <span class="skill-name">
+                    Other assays and techniques
+                    <button class="inline-link-btn"
+                            type="button"
+                            data-skill-modal-open="other-assays">
+                      (expand)
+                    </button>
+                  </span>
+                </li>
+
               </ul>
             </div>
 
@@ -2227,7 +2300,13 @@
                     <time datetime="2026-04">04/26</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Outcomes of the Molecular-Scale Biophysics Research Infrastructure (MOSBRI) project</h3>
+                  <h3 class="h3 blog-item-title">
+                    Outcomes of the Molecular-Scale Biophysics Research Infrastructure (MOSBRI) project
+                    <a href="https://cassyni.com/events/WDEKqUE7E9UHZGf7kgHVgh"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Watch video">🎥</a>
+                  </h3>
 
                   <p class="blog-text">
                     Springer Nature Biophysics Seminars. Attendance: 70, academia and industry.
@@ -2583,9 +2662,35 @@
     </section>
   </div>
 
+  <div class="skill-modal-container"
+      data-skill-modal-container>
 
+    <div class="skill-modal-overlay"
+        data-skill-modal-close></div>
 
+    <section class="skill-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="skill-modal-title">
 
+      <button class="modal-close-btn"
+              type="button"
+              data-skill-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <h3 class="h3 modal-title"
+          id="skill-modal-title"
+          data-skill-modal-title>
+      </h3>
+
+      <div class="modal-text">
+        <ul data-skill-modal-list></ul>
+      </div>
+
+    </section>
+
+  </div>
 
 
   <!--

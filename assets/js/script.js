@@ -157,6 +157,140 @@ if (licenciaturaModalOpen && licenciaturaModalContainer) {
 }
 
 
+const skillModalData = {
+
+  "protein-expression": {
+    title: "Protein expression and purification",
+    techniques: [
+      "Construct design and cloning",
+      "PCR",
+      "Agarose gel electrophoresis",
+      "Recombinant protein expression in <i>E. coli</i> (LB and M9 minimal medium)",
+      "Cell lysis (sonication / French press)",
+      "Affinity chromatography (Ni-NTA)",
+      "Size-exclusion chromatography (SEC)",
+      "Ion-exchange chromatography",
+      "SDS-PAGE",
+      "Buffer exchange (e.g., dialysis)"
+    ]
+  },
+
+  "enzymatic-assays": {
+    title: "Enzymatic assays",
+    techniques: [
+      "Enzyme activity determination with ADP-Glo™ bioluminiscence assay",
+      "IC50 determination with radioactive ATP (<sup>32</sup>P-γ-ATP)"
+    ]
+  },
+
+  "binding-assays": {
+    title: "Binding assays",
+    techniques: [
+      "Biolayer interferometry (BLI)",
+      "Microscale thermophoresis (MST)",
+      "Isothermal titration calorimetry (ITC)",
+      "Fluorescence-based binding assays"
+    ]
+  },
+
+  "sample-qc": {
+    title: "Sample quality control",
+    techniques: [
+      "SDS-PAGE",
+      "Dynamic light scattering (DLS)",
+      "Mass photometry (MP)",
+      "Differential scanning fluorimetry (DSF)",
+      "Circular dichroism (CD)"
+    ]
+  },
+
+    "other-assays": {
+    title: "Other assays and techniques",
+    techniques: [
+      "Preparing samples for small-angle X-ray scattering (SAXS)",
+      "Setting up crystallization plates for X-ray crystallography"
+    ]
+  }
+
+};
+
+const skillModalContainer =
+  document.querySelector("[data-skill-modal-container]");
+
+const skillModalTitle =
+  document.querySelector("[data-skill-modal-title]");
+
+const skillModalList =
+  document.querySelector("[data-skill-modal-list]");
+
+const skillModalButtons =
+  document.querySelectorAll("[data-skill-modal-open]");
+
+const skillModalCloseButtons =
+  document.querySelectorAll("[data-skill-modal-close]");
+
+
+function openSkillModal(skillId) {
+
+  const skill = skillModalData[skillId];
+
+  if (!skill) return;
+
+  skillModalTitle.textContent = skill.title;
+
+  skillModalList.innerHTML = "";
+
+  skill.techniques.forEach(function (technique) {
+
+    const li = document.createElement("li");
+
+    li.innerHTML = technique;
+
+    skillModalList.appendChild(li);
+
+  });
+
+  skillModalContainer.classList.add("active");
+}
+
+
+function closeSkillModal() {
+  skillModalContainer.classList.remove("active");
+}
+
+
+skillModalButtons.forEach(function (button) {
+
+  button.addEventListener("click", function () {
+
+    const skillId =
+      button.dataset.skillModalOpen;
+
+    openSkillModal(skillId);
+
+  });
+
+});
+
+
+skillModalCloseButtons.forEach(function (button) {
+
+  button.addEventListener("click", closeSkillModal);
+
+});
+
+
+document.addEventListener("keydown", function (event) {
+
+  if (
+    event.key === "Escape" &&
+    skillModalContainer.classList.contains("active")
+  ) {
+    closeSkillModal();
+  }
+
+});
+
 
 // custom select variables
 const select = document.querySelector("[data-select]");

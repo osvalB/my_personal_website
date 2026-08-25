@@ -7,7 +7,9 @@
  * copyright 2022 @codewithsadee
  */
 
-
+/**
+This file has been edited by Osvaldo Burastero
+*/
 
 
 
@@ -1065,6 +1067,76 @@ body.light-theme .navbar {
 .licenciatura-modal-container.active .licenciatura-modal {
   transform: scale(1);
   opacity: 1;
+}
+
+.skill-modal-container {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.skill-modal-container.active {
+  visibility: visible;
+  pointer-events: all;
+}
+
+.skill-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: hsl(0, 0%, 5%);
+  opacity: 0;
+  transition: var(--transition-1);
+}
+
+.skill-modal-container.active .skill-modal-overlay {
+  opacity: 0.85;
+}
+
+.skill-modal {
+  position: relative;
+  width: min(100%, 600px);
+  max-height: 85vh;
+  padding: 24px;
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  box-shadow: var(--shadow-5);
+  overflow: auto;
+  transform: scale(0.96);
+  opacity: 0;
+  transition: var(--transition-1);
+  z-index: 1;
+}
+
+.skill-modal-container.active .skill-modal {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.skill-modal .modal-title {
+  margin-bottom: 18px;
+  padding-right: 45px;
+}
+
+.skill-modal .modal-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.8;
+}
+
+.skill-modal .modal-text ul {
+  padding-left: 20px;
+}
+
+.skill-modal .modal-text li {
+  list-style: disc;
+  margin-bottom: 6px;
 }
 
 
