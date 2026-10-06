@@ -1781,6 +1781,13 @@ body.light-theme .theme-img-light {
   line-height: 1.6;
 }
 
+.blog-text a {
+  display: inline;
+  color: var(--orange-yellow-crayola);
+}
+
+.blog-text a:hover { text-decoration: underline; }
+
 .publications-intro { margin-bottom: 25px; }
 
 .publications-section { margin-top: 30px; }
