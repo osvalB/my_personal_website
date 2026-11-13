@@ -383,20 +383,43 @@ if (form && formBtn) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// add event to all nav link
+// show the page with the given name and highlight its nav link
+const showPage = function (name) {
+  for (let i = 0; i < pages.length; i++) {
+    const match = pages[i].dataset.page === name;
+    pages[i].classList.toggle("active", match);
+  }
+  for (let i = 0; i < navigationLinks.length; i++) {
+    const match = navigationLinks[i].innerHTML.toLowerCase() === name;
+    navigationLinks[i].classList.toggle("active", match);
+  }
+  window.scrollTo(0, 0);
+}
+
+const pageExists = function (name) {
+  return Array.prototype.some.call(pages, function (page) { return page.dataset.page === name; });
+}
+
+// add event to all nav link: update the URL hash so each page has a shareable link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
-
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
+    const name = this.innerHTML.toLowerCase();
+    if (location.hash.slice(1) === name) {
+      showPage(name);
+    } else {
+      location.hash = name;
     }
-
   });
+}
+
+// open the page named in the URL hash (e.g. /#publications), on load and on back/forward
+const showPageFromHash = function () {
+  const name = decodeURIComponent(location.hash.slice(1)).toLowerCase();
+  showPage(pageExists(name) ? name : "about");
+}
+
+window.addEventListener("hashchange", showPageFromHash);
+
+if (location.hash) {
+  showPageFromHash();
 }
